@@ -43,6 +43,7 @@
     }
     .center-text{
         padding-left: 10px;
+        font-size: $text-size-small;
     }
     
 };
@@ -53,14 +54,22 @@
     };
     color: $text-secondary-color;
     font-weight: 600;
+    font-size: $text-size-small-bold;
 };
-
+.section-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
 .main-title{
     @include center;
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
     align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
     
     .logo-circle{
         width: 40px;
@@ -80,13 +89,33 @@
         font-weight: 700;
         padding-left: 16px;
         padding-bottom: 6px;
+        margin: 0;
     }
     .text-letter{
         color: $text-logo-color;
         font-size: 38px;
         font-family: 'Lora', serif;
-        font-weight: 700;
-        
+        font-weight: 700;  
     }
 }
-
+.links-menu {
+    @include center;
+    ul {
+        display: flex;
+        li{
+            padding: 0 8px 0 8px;
+            font-size: $text-secondary-size;
+            font-weight:500;
+            color: $text-primary-color;
+            opacity: 100%;
+            cursor: pointer;
+        }
+        li:hover{
+            color:$text-accent-color;
+            cursor: pointer;
+        }
+    }
+}
+.line{
+    @include hrLine;
+}
