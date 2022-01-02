@@ -1,0 +1,24 @@
+@import "variables.scss";
+
+@mixin fontBold {
+    font-family: 'gotham-bold', sans-serif;
+};
+@mixin center {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 85px 0 85px;
+};
+$icon-width:18px;
+$icon-heigth:12px;
+
+@mixin iconSizes($icon-width:18px, $icon-heigth:12px){
+opacity: 1;
+};
+@mixin centerText{
+    margin: 0 6px 0 6px;
+};
+@mixin textSize ($fontSize:$text-size-medium){
+  color: $text-secondary-color;
+};

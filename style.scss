@@ -1,0 +1,57 @@
+@import "reset.scss";
+@import "mixins.scss";
+@import "variables.scss";
+
+.center{
+    @include center;
+    
+}
+.nav-bar{
+   width: 100%;
+   display: flex;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   align-items: center;
+   justify-content: space-between;
+};
+
+.content-icons{
+    align-items: center;
+    color:$text-secondary-color;
+    .icon-menu{
+        @include iconSizes($icon-width:18px, $icon-heigth:12px);
+        @include centerText;
+    }
+    .icon-search{
+        @include iconSizes($icon-width:16px, $icon-heigth:16px);
+        @include centerText;
+    }
+    .icon-cloud{
+        @include iconSizes($icon-width:22.65px, $icon-heigth:18.08px);
+        @include centerText;
+    }
+
+    .text-content{
+        @include textSize($fontSize:$text-size-medium);
+    }
+    .celcius{
+        display: flex;
+        font-size:10px ;
+        position: absolute;
+        top:18px;
+        left: 213px;;
+    }
+    .center-text{
+        padding-left: 10px;
+    }
+    
+};
+
+.links-nav{
+    .center-text{
+        @include centerText;
+    };
+    color: $text-secondary-color;
+    font-weight: 600;
+}
+
