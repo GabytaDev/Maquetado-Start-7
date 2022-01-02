@@ -22,3 +22,10 @@ opacity: 1;
 @mixin textSize ($fontSize:$text-size-medium){
   color: $text-secondary-color;
 };
+
+@mixin hrLine{
+    border:0;
+    width: 100%;
+    border-top: 1px solid #DDE5ED; 
+    height:0;
+}
