@@ -58,6 +58,10 @@
 .main-title{
     @include center;
     color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+    align-items: center;
+    
     .logo-circle{
         width: 40px;
         height: 40px;
@@ -68,6 +72,21 @@
         display: flex;
         justify-content: center;
         align-items: center;    
+    }
+    .text-title{
+        color: $text-logo-color;
+        font-size: 48px;
+        font-family: 'Lora', serif;
+        font-weight: 700;
+        padding-left: 16px;
+        padding-bottom: 6px;
+    }
+    .text-letter{
+        color: $text-logo-color;
+        font-size: 38px;
+        font-family: 'Lora', serif;
+        font-weight: 700;
+        
     }
 }
 
