@@ -5,6 +5,10 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+ul, li {
+  list-style: none;
+}
+
 .center {
   width: auto;
   display: flex;
@@ -58,6 +62,26 @@ body {
 }
 .links-nav .center-text {
   margin: 0 6px 0 6px;
+}
+
+.main-title {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 85px 0 85px;
+  color: #FFFFFF;
+}
+.main-title .logo-circle {
+  width: 40px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 50%;
+  background-color: #C60C30;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
