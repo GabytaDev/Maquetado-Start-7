@@ -143,4 +143,25 @@ ul, li {
   height: 0;
 }
 
+.small-circle-featured {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #C60C30;
+}
+
+.small-title-featured {
+  font-family: "gotham-bold", sans-serif;
+  color: #717171;
+  color: #005077;
+  padding: 0 5px 0 5px;
+}
+
+.small-text-featured {
+  color: #717171;
+  color: #000000;
+  font-weight: lighter;
+}
+
 /*# sourceMappingURL=style.css.map */
