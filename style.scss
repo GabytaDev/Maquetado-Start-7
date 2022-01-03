@@ -39,7 +39,7 @@
         font-size:10px ;
         position: absolute;
         top:18px;
-        left: 203px;;
+        left: 329px;;
     }
     .center-text{
         padding-left: 10px;
@@ -104,7 +104,7 @@
     ul {
         display: flex;
         li{
-            padding: 0 10px 0 10px;
+            padding: 0 5px 0 5px;
             font-size: $text-secondary-size;
             font-weight:500;
             color: $text-primary-color;
@@ -146,3 +146,80 @@
     font-weight: lighter;
     margin:20px 0 20px 0;
 }
+//Section CONTENTS
+.section-contents{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+   
+    .colum-article{
+       @include column;
+       margin: 0 10px 0 10px;
+       .title-news{
+           display: flex;
+           height: 188px;
+           font-size: $text-size-large-bold;
+           color: $text-primary-color;
+           @include fontBold; 
+           margin: 0 0 52px 0; 
+           line-height: 1;
+           font-weight: bold;
+           letter-spacing: -0.72px;
+           width: 350px;
+       }
+       .text-news{
+        display: flex;
+        font-size: $text-size-medium;
+        width: 350px;
+        height: 105px;
+        letter-spacing: -0.45px;
+        text-align: left;
+        font-weight: lighter;
+        color: $text-primary-color;
+        flex-wrap: wrap;
+       }
+       .small-title{
+        @include textSize($fontSize: $text-size-small-bold);
+        color: $text-accent-color;
+        width: 350px;
+        margin:10px 0 10px 0;
+       }
+       .text-news-bold{
+           @include textSize($fontSize:$text-size-small-bold-2);
+           color: $text-primary-color;
+           @include fontBold;
+           font-weight: bold;
+           width: 350px;
+           margin:0px 0 14px 0;   
+       }
+       .small-title-central{
+           @include textSize($fontSize:$text-size-small);
+           color: $text-accent-color;
+           @include fontBold;
+           font-weight: lighter;   
+       }
+       .title-medium{
+        font-size: $text-size-medium-bold;
+        font-weight: bold;
+        letter-spacing: -0.48px;
+        margin: 0;
+        }
+        .text-small-news{
+        font-size: $text-secondary-size;
+        letter-spacing: -0.4px;
+        line-height: 1;
+        }
+        .content-photo-news{
+            display: flex;
+            justify-content: space-around;
+            .text-space-inner{
+                width: 270px;
+                margin: 0 10px 0 10px;
+            }
+        }
+       
+    }
+
+}
+
