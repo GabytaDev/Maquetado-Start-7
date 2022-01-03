@@ -191,8 +191,35 @@
            @include fontBold;
            font-weight: bold;
            width: 350px;
-           margin:0px 0 14px 0;
+           margin:0px 0 14px 0;   
        }
+       .small-title-central{
+           @include textSize($fontSize:$text-size-small);
+           color: $text-accent-color;
+           @include fontBold;
+           font-weight: lighter;   
+       }
+       .title-medium{
+        font-size: $text-size-medium-bold;
+        font-weight: bold;
+        letter-spacing: -0.48px;
+        margin: 0;
+        }
+        .text-small-news{
+        font-size: $text-secondary-size;
+        letter-spacing: -0.4px;
+        line-height: 1;
+        }
+        .content-photo-news{
+            display: flex;
+            justify-content: space-around;
+            .text-space-inner{
+                width: 270px;
+                margin: 0 10px 0 10px;
+            }
+        }
+       
     }
 
 }
+
