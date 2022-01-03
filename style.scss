@@ -155,17 +155,18 @@
    
     .colum-article{
        @include column;
+       margin: 0 10px 0 10px;
        .title-news{
            display: flex;
-           width: 350px;
            height: 188px;
            font-size: $text-size-large-bold;
            color: $text-primary-color;
            @include fontBold; 
-           margin: 0; 
+           margin: 0 0 52px 0; 
            line-height: 1;
            font-weight: bold;
            letter-spacing: -0.72px;
+           width: 350px;
        }
        .text-news{
         display: flex;
@@ -180,6 +181,17 @@
        }
        .small-title{
         @include textSize($fontSize: $text-size-small-bold);
+        color: $text-accent-color;
+        width: 350px;
+        margin:10px 0 10px 0;
+       }
+       .text-news-bold{
+           @include textSize($fontSize:$text-size-small-bold-2);
+           color: $text-primary-color;
+           @include fontBold;
+           font-weight: bold;
+           width: 350px;
+           margin:0px 0 14px 0;
        }
     }
 
