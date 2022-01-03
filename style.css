@@ -14,7 +14,7 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 85px 0 85px;
+  margin: 0 74px 0 74px;
 }
 
 .nav-bar {
@@ -50,7 +50,7 @@ ul, li {
   font-size: 10px;
   position: absolute;
   top: 18px;
-  left: 213px;
+  left: 203px;
 }
 .content-icons .center-text {
   padding-left: 10px;
@@ -78,7 +78,7 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 85px 0 85px;
+  margin: 0 74px 0 74px;
   color: #FFFFFF;
   font-size: 26px;
   font-weight: 600;
@@ -118,18 +118,19 @@ ul, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 85px 0 85px;
+  margin: 0 74px 0 74px;
 }
 .links-menu ul {
   display: flex;
 }
 .links-menu ul li {
-  padding: 0 8px 0 8px;
+  padding: 0 10px 0 10px;
   font-size: 16px;
   font-weight: 500;
   color: #000000;
   opacity: 100%;
   cursor: pointer;
+  margin: 0 5px 0 5px;
 }
 .links-menu ul li:hover {
   color: #005077;
@@ -141,6 +142,37 @@ ul, li {
   width: 100%;
   border-top: 1px solid #DDE5ED;
   height: 0;
+}
+
+.center-inner {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-circle-featured {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #C60C30;
+  margin-bottom: 2px;
+}
+
+.small-title-featured {
+  font-family: "gotham-bold", sans-serif;
+  color: #717171;
+  color: #005077;
+  padding: 0 5px 0 5px;
+  margin: 0;
+}
+
+.small-text-featured {
+  color: #717171;
+  color: #000000;
+  font-weight: lighter;
+  margin: 20px 0 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
