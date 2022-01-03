@@ -8,8 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 85px 0 85px;
+    margin: 0 74px 0 74px;
 };
+
 $icon-width:18px;
 $icon-heigth:12px;
 
@@ -29,3 +30,10 @@ opacity: 1;
     border-top: 1px solid #DDE5ED; 
     height:0;
 }
+
+@mixin centerInner {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
