@@ -146,7 +146,7 @@
     font-weight: lighter;
     margin:20px 0 20px 0;
 }
-//Section CONTENTS
+//Section CONTENT
 .section-contents{
     display: flex;
     align-content: space-between;
@@ -155,7 +155,7 @@
    
     .colum-article{
        @include column;
-       margin: 0 10px 0 10px;
+       
        .title-news{
            display: flex;
            height: 188px;
@@ -166,12 +166,11 @@
            line-height: 1;
            font-weight: bold;
            letter-spacing: -0.72px;
-           width: 350px;
+           
        }
        .text-news{
         display: flex;
         font-size: $text-size-medium;
-        width: 350px;
         height: 105px;
         letter-spacing: -0.45px;
         text-align: left;
@@ -179,37 +178,31 @@
         color: $text-primary-color;
         flex-wrap: wrap;
        }
-       .small-title{
-        @include textSize($fontSize: $text-size-small-bold);
-        color: $text-accent-color;
-        width: 350px;
-        margin:10px 0 10px 0;
-       }
-       .text-news-bold{
-           @include textSize($fontSize:$text-size-small-bold-2);
-           color: $text-primary-color;
-           @include fontBold;
-           font-weight: bold;
-           width: 350px;
-           margin:0px 0 14px 0;   
-       }
-       .small-title-central{
-           @include textSize($fontSize:$text-size-small);
-           color: $text-accent-color;
-           @include fontBold;
-           font-weight: lighter;   
-       }
-       .title-medium{
-        font-size: $text-size-medium-bold;
-        font-weight: bold;
-        letter-spacing: -0.48px;
-        margin: 0;
+        
+    }
+
+    .colum-article-second{
+        @include columnSecond;
+
+        .small-title-central{
+            @include textSize($fontSize:$text-size-small);
+            color: $text-accent-color;
+            @include fontBold;
+            font-weight: lighter;   
         }
+        .title-medium{
+            font-size: $text-size-medium-bold;
+            font-weight: bold;
+            letter-spacing: -0.48px;
+            margin: 0;
+        }
+
         .text-small-news{
-        font-size: $text-secondary-size;
-        letter-spacing: -0.4px;
-        line-height: 1;
+            font-size: $text-secondary-size;
+            letter-spacing: -0.4px;
+            line-height: 1;
         }
+        
         .content-photo-news{
             display: flex;
             justify-content: space-around;
@@ -218,8 +211,30 @@
                 margin: 0 10px 0 10px;
             }
         }
-       
-    }
 
+    }
+    .colum-article-trird{
+        @include columnTrird;
+        .text-margin{
+            margin: 20px 0 30px 0;
+        }
+        
+    }
 }
 
+.small-title{
+    @include textSize($fontSize: $text-size-small-bold);
+    color: $text-accent-color;
+    margin:10px 0 10px 0;
+}
+.text-news-bold{
+    @include textSize($fontSize:$text-size-small-bold-2);
+    color: $text-primary-color;
+    @include fontBold;
+    font-weight: bold;
+    margin:0px 0 14px 0;   
+}   
+
+.paddin-img{
+   padding: 0 0 30px 0;
+}
