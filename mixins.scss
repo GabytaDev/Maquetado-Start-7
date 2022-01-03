@@ -20,6 +20,7 @@ opacity: 1;
 @mixin centerText{
     margin: 0 6px 0 6px;
 };
+
 @mixin textSize ($fontSize:$text-size-medium){
   color: $text-secondary-color;
 };
@@ -37,3 +38,11 @@ opacity: 1;
     justify-content: center;
     align-items: center;
 };
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+}

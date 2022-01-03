@@ -39,7 +39,7 @@
         font-size:10px ;
         position: absolute;
         top:18px;
-        left: 203px;;
+        left: 329px;;
     }
     .center-text{
         padding-left: 10px;
@@ -104,7 +104,7 @@
     ul {
         display: flex;
         li{
-            padding: 0 10px 0 10px;
+            padding: 0 5px 0 5px;
             font-size: $text-secondary-size;
             font-weight:500;
             color: $text-primary-color;
@@ -145,4 +145,42 @@
     color: $text-primary-color;
     font-weight: lighter;
     margin:20px 0 20px 0;
+}
+//Section CONTENTS
+.section-contents{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+   
+    .colum-article{
+       @include column;
+       .title-news{
+           display: flex;
+           width: 350px;
+           height: 188px;
+           font-size: $text-size-large-bold;
+           color: $text-primary-color;
+           @include fontBold; 
+           margin: 0; 
+           line-height: 1;
+           font-weight: bold;
+           letter-spacing: -0.72px;
+       }
+       .text-news{
+        display: flex;
+        font-size: $text-size-medium;
+        width: 350px;
+        height: 105px;
+        letter-spacing: -0.45px;
+        text-align: left;
+        font-weight: lighter;
+        color: $text-primary-color;
+        flex-wrap: wrap;
+       }
+       .small-title{
+        @include textSize($fontSize: $text-size-small-bold);
+       }
+    }
+
 }
