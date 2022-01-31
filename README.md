@@ -9,4 +9,4 @@ Para mi fué una experiencia muy buena poder realizarla durante mi formación en
 ### Aviso!
 Solo es maquetado para Desktop, no contiene funcionalidades de javascrip! (Pero pronto las tendrá 😏)
 
-visita la pagina del maquetado aquí 👉🏻[Maquetado] (https://gabytadev.github.io/Maquetado-Start-7/)
+visita la pagina del maquetado aquí 👉🏻[Maquetado](https://gabytadev.github.io/Maquetado-Start-7/)
