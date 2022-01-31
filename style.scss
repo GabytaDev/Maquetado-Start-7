@@ -21,18 +21,25 @@
     .icon-menu{
         @include iconSizes($icon-width:18px, $icon-heigth:12px);
         @include centerText;
+        cursor: pointer;
+        
     }
     .icon-search{
         @include iconSizes($icon-width:16px, $icon-heigth:16px);
         @include centerText;
+        cursor: pointer;
+        
     }
     .icon-cloud{
         @include iconSizes($icon-width:22.65px, $icon-heigth:18.08px);
         @include centerText;
+        cursor: pointer;
     }
 
     .text-content{
         @include textSize($fontSize:$text-size-medium);
+       cursor: pointer;
+        
     }
     .celcius{
         display: flex;
@@ -52,6 +59,9 @@
     .center-text{
         @include centerText;
     };
+    .cursor{
+        cursor: pointer;
+    }
     color: $text-secondary-color;
     font-weight: 600;
     font-size: $text-size-small-bold;
@@ -71,6 +81,7 @@
     align-items: center;
     padding-top: 6px;
     padding-bottom: 6px;
+    cursor: pointer;
     
     .logo-circle{
         width: 40px;
@@ -145,6 +156,7 @@
     color: $text-primary-color;
     font-weight: lighter;
     margin:20px 0 20px 0;
+    cursor: pointer;
 }
 //Section CONTENT
 .section-contents{
@@ -155,7 +167,9 @@
    
     .colum-article{
        @include column;
-       
+       img{
+        cursor: pointer;
+       }
        .title-news{
            display: flex;
            height: 188px;
@@ -166,6 +180,7 @@
            line-height: 1;
            font-weight: bold;
            letter-spacing: -0.72px;
+           cursor: pointer;
            
        }
        .text-news{
@@ -183,7 +198,9 @@
 
     .colum-article-second{
         @include columnSecond;
-
+        img{
+            cursor: pointer;
+        }
         .small-title-central{
             @include textSize($fontSize:$text-size-small);
             color: $text-accent-color;
@@ -195,6 +212,7 @@
             font-weight: bold;
             letter-spacing: -0.48px;
             margin: 0;
+            cursor: pointer;
         }
 
         .text-small-news{
@@ -235,7 +253,7 @@
     margin:0px 0 14px 0;   
 }   
 
-.paddin-img{
+.padding-img{
    padding: 0 0 30px 0;
 }
 

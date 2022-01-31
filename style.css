@@ -37,17 +37,21 @@ ul, li {
 .content-icons .icon-menu {
   opacity: 1;
   margin: 0 6px 0 6px;
+  cursor: pointer;
 }
 .content-icons .icon-search {
   opacity: 1;
   margin: 0 6px 0 6px;
+  cursor: pointer;
 }
 .content-icons .icon-cloud {
   opacity: 1;
   margin: 0 6px 0 6px;
+  cursor: pointer;
 }
 .content-icons .text-content {
   color: #717171;
+  cursor: pointer;
 }
 .content-icons .celcius {
   display: flex;
@@ -69,6 +73,9 @@ ul, li {
 .links-nav .center-text {
   margin: 0 6px 0 6px;
 }
+.links-nav .cursor {
+  cursor: pointer;
+}
 
 .section-menu {
   display: flex;
@@ -89,6 +96,7 @@ ul, li {
   align-items: center;
   padding-top: 6px;
   padding-bottom: 6px;
+  cursor: pointer;
 }
 .main-title .logo-circle {
   width: 40px;
@@ -177,6 +185,7 @@ ul, li {
   color: #000000;
   font-weight: lighter;
   margin: 20px 0 20px 0;
+  cursor: pointer;
 }
 
 .section-contents {
@@ -192,6 +201,9 @@ ul, li {
   width: 350px;
   margin: 0 10px 0 10px;
 }
+.section-contents .colum-article img {
+  cursor: pointer;
+}
 .section-contents .colum-article .title-news {
   display: flex;
   height: 188px;
@@ -202,6 +214,7 @@ ul, li {
   line-height: 1;
   font-weight: bold;
   letter-spacing: -0.72px;
+  cursor: pointer;
 }
 .section-contents .colum-article .text-news {
   display: flex;
@@ -220,6 +233,9 @@ ul, li {
   width: 445px;
   margin: 0 10px 0 10px;
 }
+.section-contents .colum-article-second img {
+  cursor: pointer;
+}
 .section-contents .colum-article-second .small-title-central {
   color: #717171;
   color: #005077;
@@ -231,6 +247,7 @@ ul, li {
   font-weight: bold;
   letter-spacing: -0.48px;
   margin: 0;
+  cursor: pointer;
 }
 .section-contents .colum-article-second .text-small-news {
   font-size: 16px;
@@ -270,7 +287,7 @@ ul, li {
   margin: 0px 0 14px 0;
 }
 
-.paddin-img {
+.padding-img {
   padding: 0 0 30px 0;
 }
 
